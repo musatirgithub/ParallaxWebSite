@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outline {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.outline h1{
+    background-color: #4D4D4D;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #4D4D4D;
+    outline: 8px inset #A64DA6;
+    border-radius: 20px 0 20px 0;
+    outline-offset: 0.3rem;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.container1 {
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-info{
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 70px;
+    line-height: 2;
+    color: #666666;
+}
+
+.light-info h2{
+    margin-bottom: 10px;
+}
+
+.dark-info{
+    background-color: #282E34;
+    text-align: center;
+    padding: 70px;
+    line-height: 2;
+    color: #DDDDDD;
+}
+
+.dark-info h2{
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 100vh;
+    background-image: url("./images/bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    opacity: 0.6;
+}
+
+
+.motto{
+    height: 100vh;
+    background-image: url("./images/bg3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team{
+    height: 100vh;
+    background-image: url("./images/bg4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:750px) {
+    .outline h1{
+        font-size: 2rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .outline {
+        height: 75vh;
+    }
+
+    .dark-info h2, .light-info h2 {
+        font-size: 1.35rem;
+    }
+
+    .dark-info p, .light-info p {
+        font-size: 0.9rem;
+    }
+}
+
